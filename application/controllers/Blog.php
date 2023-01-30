@@ -73,7 +73,7 @@ class Blog extends CI_Controller
             if ($id) {
                 redirect('Blog/index');
             }
-        }
+	}
         $this->load->view('Blog_input');
     }
 
